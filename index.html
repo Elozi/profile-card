@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="profile-card">
+    <!-- Profile Picture -->
+    <div class="profile-pic"><img 
+        src="picture.png" 
+        alt="Profile Picture" 
+        data-testid="profilePicture" 
+        class="profile-picture"
+      ></div>
+      <div>
+
+    <!-- Full Name -->
+    <h1 data-testid="fullName">Abigail Ogbogo</h1>
+
+    <!-- Job Title -->
+    <p data-testid="jobTitle" class="job-title">Front-End Developer</p>
+
+    <!-- Short Bio -->
+    <p data-testid="shortBio" class="short-bio">
+      
+I am very passionate about designing user-friendly and accessible web experiences that genuinely make a difference. I enjoy combining creativity and technology to build responsive, dynamic applications that people love to use. For me, it’s all about solving challenges and creating digital solutions that feel intuitive, engaging, meaningful and visualy appealing to users.
+    </p>
+
+    <!-- Current Location -->
+    <p data-testid="currentLocation" class="current-location">Lagos, Nigeria</p>
+
+    <!-- Email Address -->
+    <a 
+      href="mailto:abbyjamezz@gmail.com" 
+      data-testid="emailAddress" 
+      class="email-address"
+    >
+    📧  abbyjamezz@gmail.com
+    </a>
+
+    <!-- Social Links -->
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://linkedin.com/in/ogbogo-abigail-051a75218" target="_blank"> <i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Elozi" target="_blank"> <i class="fab fa-github"></i></a>
+      <a href="https://x.com/Elozi_" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p data-testid="currentTimeUTC" class="current-time-utc"></p>
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 
+    'Montserrat'
+    'sans-serif';
+    background: linear-gradient(to right,#490054, #ae01c0 );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Profile Card Styling */
+  .profile-card {
+    background-color: #231e39;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Profile Picture */
+  .profile-pic{
+    width: 20vw; 
+    height: 20vw;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%; 
+    background-color:  #c400d7;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    overflow: hidden;
+
+  }
+  .profile-picture {
+    width: 80%;
+    height: 30%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+
+  
+
+  
+  
+  /* Full Name */
+  h1 {
+    font-size: 19px;
+    margin: 10px 0;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+    color: #b3b8cd;
+  }
+  
+  /* Job Title */
+  .job-title {
+    font-size: 17px;
+    color: #b3b8cd;
+    margin: 5px 0;
+    font-weight: 400;
+  }
+  
+  /* Short Bio */
+  .short-bio {
+    font-size: 0.9rem;
+    color:  #959ebf;
+    margin: 10px 0;
+  }
+  
+  /* Current Location */
+  .current-location {
+    font-size: 0.9rem;
+    color:  #959ebf;
+    margin: 5px 0;
+  }
+  
+  /* Email Address */
+  .email-address {
+    display: block;
+    font-size: 0.9rem;
+    color:  #c400d7;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  
+  .email-address:hover {
+    text-decoration: underline;
+    color:  #959ebf;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color:  #c400d7;
+    font-size: 0.9rem;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+    color:  #959ebf;
+  }
+  
+  /* Current Time in UTC */
+  .current-time-utc {
+    font-size: 0.8rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  @media (max-width: 768px) {
+    .profile-card {
+      padding: 1rem;
+      text-align: center;
+    }
+    .social-links a {
+      margin: 0 5px;
+    }
+  }
+  
